@@ -1,0 +1,29 @@
+{
+  "name": "bangazon-cli-ordering-system-march-madness-bangazon",
+  "version": "1.0.0",
+  "description": "## The Command Line Ordering System",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R list --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-march-madness-bangazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-march-madness-bangazon/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-march-madness-bangazon#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  }
+}
