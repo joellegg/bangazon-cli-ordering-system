@@ -138,4 +138,4 @@ You will create a series of prompts that will allow the user to create various t
 
 
 # ERD
-<img src="images/bangazon_ERD.png">
+<img src="/images/bangazon_ERD.png">
