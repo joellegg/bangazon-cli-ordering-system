@@ -1,0 +1,10 @@
+{
+  "customers": [
+    { "customer_id": null, "name": "Fred", "address": "500 Somewhere Lane", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 },
+    { "customer_id": null, "name": "James", "address": "501 Old Hickory", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 },
+    { "customer_id": null, "name": "Michael", "address": "608 This Street", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 },
+    { "customer_id": null, "name": "Billy", "address": "12 Nimbus Ct", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 },
+    { "customer_id": null, "name": "Joel", "address": "65 Bologna St", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 },
+    { "customer_id": null, "name": "Sorrel", "address": "Somewhere Nashville St", "city": "Nashville", "state": "TN", "postal_code": 37208, "phone_number": 61542424244 }
+  ]
+}

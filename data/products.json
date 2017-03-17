@@ -1,0 +1,23 @@
+{
+  "products": [
+    { "product_id": null, "name": "turtle", "price": 3.99 },
+    { "product_id": null, "name": "ball", "price": 3.44 },
+    { "product_id": null, "name": "parachute", "price": 6.55 },
+    { "product_id": null, "name": "barbie", "price": 5.24 },
+    { "product_id": null, "name": "steak", "price": 14.65 },
+    { "product_id": null, "name": "peacock", "price": 5.45 },
+    { "product_id": null, "name": "cow", "price": 4.44 },
+    { "product_id": null, "name": "rubber duck", "price": 3.33 },
+    { "product_id": null, "name": "truck", "price": 2.99 },
+    { "product_id": null, "name": "car", "price": 1.86 },
+    { "product_id": null, "name": "chicken", "price": 6.33 },
+    { "product_id": null, "name": "turducken", "price": 56.75 },
+    { "product_id": null, "name": "stick", "price": 67.88 },
+    { "product_id": null, "name": "pinecone", "price": 7.56 },
+    { "product_id": null, "name": "coconut", "price": 1.23 },
+    { "product_id": null, "name": "bunny", "price": 3.45 },
+    { "product_id": null, "name": "hair", "price": 6.53 },
+    { "product_id": null, "name": "shirt", "price": 5.33 },
+    { "product_id": null, "name": "sweat pants", "price": 7.89 }
+  ]
+}

@@ -1,15 +1,15 @@
 'use strict';
 
 const { assert: { isNumber, isObject, isUndefined, isArray, include, isFunction, isString } } = require('chai');
-const activeCust = require('../lib/active-cust');
+const createPayOpt = require('../lib/payment-opt');
 
-describe('active-cust', () => {
-  describe('activeCust function', () => {
-    it('activeCust should be a function', () => {
-      isFunction(activeCust);
+describe('payment-opt', () => {
+  describe('createPayOpt function', () => {
+    it('createPayOpt should be a function', () => {
+      isFunction(createPayOpt);
     });
     it('should return an object', () => {
-      activeCust().then((res) => {
+      createPayOpt().then((res) => {
         isObject(res)
       })
     })

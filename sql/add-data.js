@@ -14,7 +14,7 @@ customers.forEach((obj) => {
 });
 
 payment_options.forEach((res) => {
-  db.run(`INSERT INTO Payment_Options VALUES (${res.payment_id}, '${res.name}', ${res.account_number})`);
+  db.run(`INSERT INTO Payment_Options VALUES (${res.payment_id}, ${res.customer_id}, '${res.name}', ${res.account_number})`);
 });
 
 products.forEach((res) => {

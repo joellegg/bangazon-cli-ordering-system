@@ -25,6 +25,7 @@ db.run(`CREATE TABLE IF NOT EXISTS Customers (
   phone_number INT)`, errorHandler);
 db.run(`CREATE TABLE IF NOT EXISTS Payment_Options (
   payment_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  customer_id INT,
   name TEXT,
   account_number INT)`, errorHandler);
 db.run(`CREATE TABLE IF NOT EXISTS Products (
