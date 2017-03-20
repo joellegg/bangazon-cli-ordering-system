@@ -1,7 +1,7 @@
 'use strict';
 
 const { assert: { isNumber, isUndefined, isObject, include, isFunction, isString } } = require('chai');
-const createCust = require('../lib/create-cust-acct');
+const { createCust, custPrompt } = require('../lib/create-cust-acct');
 
 describe('create-cust-acct', () => {
   describe('createCust function', () => {
