@@ -1,15 +1,15 @@
 'use strict';
 
 const { assert: { isNumber, isObject, isUndefined, isArray, include, isFunction, isString } } = require('chai');
-const activeCust = require('../lib/active-cust');
+const addProduct = require('../lib/add-to-cart');
 
-describe('active-cust', () => {
-  describe('activeCust function', () => {
-    it('activeCust should be a function', () => {
-      isFunction(activeCust);
+describe('add-to-cart', () => {
+  describe('addProduct function', () => {
+    it('addProduct should be a function', () => {
+      isFunction(addProduct);
     });
     it('should return an object', () => {
-      activeCust().then((res) => {
+      addProduct().then((res) => {
         isObject(res)
       })
     })
