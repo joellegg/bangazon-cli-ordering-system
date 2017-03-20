@@ -9,7 +9,7 @@ describe('add-to-cart', () => {
       isFunction(addProduct);
     });
     it('should return an object', () => {
-      addProduct().then((res) => {
+      addProduct(1).then((res) => {
         isObject(res)
       })
     })
