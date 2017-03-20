@@ -18,17 +18,17 @@ describe('complete-order', () => {
       })
     })
   });
-  describe('getProductArray', () => {
-    it('should return an array of items with prices', () => {
-      var orderLineitems = [{ line_id: 63, order_id: 54, product_id: 1 },
-        { line_id: 64, order_id: 54, product_id: 4 },
-        { line_id: 65, order_id: 54, product_id: 16 }
-      ];
-      getProductArray(orderLineitems).then((res) => {
-        isArray(res);
-      })
-    })
-  });
+  // describe('getProductArray', () => {
+  //   it('should return an array of items with prices', () => {
+  //     var orderLineitems = [{ line_id: 54, order_id: 20, product_id: 1 },
+  //       { line_id: 13, order_id: 12, product_id: 4 },
+  //       { line_id: 18, order_id: 10, product_id: 16 }
+  //     ];
+  //     getProductArray(orderLineitems).then((res) => {
+  //       isArray(res);
+  //     })
+  //   })
+  // });
   describe('sumProducts function', () => {
     it('should return a total price', () => {
       let somePrices = [2, 3, 4];
