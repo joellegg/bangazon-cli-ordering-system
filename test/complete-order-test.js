@@ -1,7 +1,7 @@
 'use strict';
 
-const { assert: { isNumber, isObject, isUndefined, isArray, include, isFunction, isString } } = require('chai');
-const { completeOrder, getCustOrderId, handleProducts, getProductArray } = require('../lib/complete-order');
+const { assert: { isNumber, isObject, isUndefined, isArray, include, isFunction, strictEqual } } = require('chai');
+const { completeOrder, getCustOrderId, handleProducts, getProductArray, sumProducts, readyToPurchase } = require('../lib/complete-order');
 
 describe('complete-order', () => {
   describe('getCustOrderId', () => {
@@ -28,5 +28,11 @@ describe('complete-order', () => {
         isArray(res);
       })
     })
-  })
+  });
+  describe('sumProducts function', () => {
+    it('should return a total price', () => {
+      let somePrices = [2, 3, 4];
+      sumProducts(somePrices).then((res) => isNumber(res));
+    })
+  });
 });
